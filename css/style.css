@@ -1,0 +1,53 @@
+.header {
+  background-color: #dedde4;
+  color: white;
+  padding: 20px 0;
+}
+
+.inner-header {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-container:hover {
+  color: #333;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  display: flex;
+}
+.navigation li:hover {
+  background-color: #e7f3f1;
+  color: white;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation li:first-child {
+  margin-left: 0;
+}
+
+.text-block {
+  overflow: auto;
+}
+
+img {
+  float: left; /* выравнивание по левому краю */
+  margin: 0 20px 20px 0; /* отступы */
+  max-width: 300px; /* максимальная ширина */
+}
